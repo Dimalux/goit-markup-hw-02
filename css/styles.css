@@ -14,6 +14,8 @@ a {
 }
 
 /* #region Header */
+
+/* #region LOGO (header) */
 .nav .link-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -27,6 +29,11 @@ a {
 .nav .link-logo .logo-part {
   color: #2e2f42;
 }
+
+/* #endregion LOGO (header) */
+
+
+
 
 .nav-link {
   font-weight: 500;
@@ -81,7 +88,12 @@ font-family: "Raleway", serif; */
   background-color: #2e2f42;
 }
 
+
+/* #region LOGO (footer) */
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
+
+/* #endregion LOGO (footer) */
+
 /* #endregion Footer */
