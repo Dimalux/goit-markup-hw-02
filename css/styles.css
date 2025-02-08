@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 
-button {
+.button {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -24,8 +24,8 @@ button {
   background: #4d5ae5;
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 
@@ -89,7 +89,7 @@ button:focus {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #fff;
 }
 
@@ -133,12 +133,15 @@ button:focus {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #2e2f42;
+
+  text-transform: capitalize;
 }
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-foto {
 }
@@ -147,7 +150,7 @@ button:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #2e2f42;
 }
 .team-list-text {
@@ -155,7 +158,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #434455;
 }
 
@@ -168,10 +171,12 @@ button:focus {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #2e2f42;
+
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -206,6 +211,22 @@ button:focus {
   color: #f4f4fd;
 }
 
-/* #endregion LOGO (footer) */
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 
+/* #endregion LOGO (footer) */
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
 /* #endregion Footer */
